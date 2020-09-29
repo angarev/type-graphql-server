@@ -1,4 +1,3 @@
-// import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 import {Length,	IsEmail } from 'class-validator';
 import { InputType, Field } from 'type-graphql';
 import { IsEmailAlreadyExist } from './isEmailAlreadyExist';
